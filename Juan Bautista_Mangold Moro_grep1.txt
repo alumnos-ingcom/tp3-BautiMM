@@ -1,11 +1,18 @@
-grep -Ei "^[[:digit:]]{3}\-[[:digit:]]{3}\-[[:digit:]]{4}[[:space:]][x]" grepdata.txt
+1)grep -Ei "^[[:digit:]]{3}\-[[:digit:]]{3}\-[[:digit:]]{4}[[:space:]][x]" grepdata.txt
 
-grep -Ei "^[[:digit:]]{3}[[:space:]]" grepdata.txt
+2)grep -Ei "^[[:digit:]]{3}[[:space:]]" grepdata.txt
 
-grep -Ei "[[:alpha:]]{3}[.][[:space:]][[:digit:]]" grepdata.txt
+3)grep -Ei "[[:alpha:]]{3}[.][[:space:]][[:digit:]]" grepdata.txt
 
-grep -Ev "^[S]" grepdata.txt
+4)grep -Ei "[a][[:alnum:]][a]" grepdata.txt
+grep -Ei "[e][[:alnum:]][e]" grepdata.txt
+grep -Ei "[i][[:alnum:]][i]" grepdata.txt
+grep -Ei "[o][[:alnum:]][o]" grepdata.txt
+grep -Ei "[u][[:alnum:]][u]" grepdata.txt
 
-grep -E "[@]" grepdata.txt 
+
+5)grep -Ev "^[S]" grepdata.txt
+
+6)grep -E "[@]" grepdata.txt 
 
 
